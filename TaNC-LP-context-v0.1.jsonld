@@ -1,5 +1,21 @@
 {"@context": {
-  "id": "@id",
+  
+  "schema": "http://schema.org/",
+  "id": "schema:identifier",
+  "title": "schema:name",
+  "title_source": "schema:Citation",
+  "geo": "schema:geo",
+  "latitude": {
+      "@id": "schema:latitude",
+      "@type": "xsd:float"
+    },
+  "longitude": {
+      "@id": "schema:longitude",
+      "@type": "xsd:float"
+    },
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  
+#  "id": "@id",
   "type": "@type",
   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -24,7 +40,7 @@
   "doi": "https://doi.org/",
   "label": {"@id": "rdfs:label"},
   "value": {"@id": "rdf:value"},
-  "title": {"@id": "dct:title"},
+#  "title": {"@id": "dct:title"},
   "license": "dct:license",
 
   "geojson": "https://purl.org/geojson/vocab#",
