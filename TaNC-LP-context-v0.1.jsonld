@@ -126,7 +126,7 @@
     "@id": "foaf:depiction",
     "@type": "@id",
     "@container": "@set"
-  }
+  },
   
   "schema": "http://schema.org/",
   "id": "schema:identifier",
@@ -141,6 +141,6 @@
       "@id": "schema:longitude",
       "@type": "xsd:float"
     },
-  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#"
   
 }} 
