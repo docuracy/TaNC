@@ -27,13 +27,13 @@
   "properties": {},
   "geometry": {
     "type": "Point",
-    "coordinates": [53.920076131008514, -1.3213503206892254]
+    "coordinates": [-1.3213503206892254, 53.920076131008514]
   },
   "geo": {
     "@type": "GeoCoordinates",
     "addressCountry": "GB",
-    "longitude": "53.920076131008514",
-    "latitude": "-1.3213503206892254"
+    "longitude": "-1.3213503206892254",
+    "latitude": "53.920076131008514"
   },
   "when": {}
   }
