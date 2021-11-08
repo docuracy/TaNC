@@ -24,8 +24,8 @@
 "license": "https://creativecommons.org/licenses/by/4.0/",
 "features": [
   {
-  "type": "Feature",
-  "additionalType": "Place",
+  "type": "Place",
+  "additionalType": "Feature",
   "id": "https://www.wikidata.org/wiki/Q33158363",
   "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
   "properties": {},
@@ -42,22 +42,22 @@
     "when": {}
   },
   {
-  "type": "Feature",
-  "additionalType": "Place",
-  "id": "https://www.wikidata.org/wiki/Q33158363",
-  "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
+  "type": "Place",
+  "additionalType": "Feature",
+  "id": "c.f.MIB II 106/7",
+  "description": "012345678901234567890123456789012345678901234567890123456789",
   "properties": {},
   "geometry": {
     "type": "Point",
-    "coordinates": [-1.3213503206892254, 53.920076131008514]
+    "coordinates": [-2.6827508, 51.002024]	
   },
   "geo": {
     "@type": "GeoCoordinates",
     "addressCountry": "GB",
-    "longitude": "-1.3213503206892254",
-    "latitude": "53.920076131008514"
+    "longitude": "-2.6827508",
+    "latitude": "51.002024"
   },
-    "when": {}
+    "temporalCoverage": "512/517"
   }
 ],
 "funder":{
