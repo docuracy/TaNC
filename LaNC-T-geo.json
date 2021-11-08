@@ -24,8 +24,8 @@
 "license": "https://creativecommons.org/licenses/by/4.0/",
 "features": [
   {
-  "type": "Place",
-  "additionalType": "Feature",
+  "type": "Feature",
+  "additionalType": "Place",
   "id": "https://www.wikidata.org/wiki/Q33158363",
   "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
   "properties": {},
@@ -42,8 +42,8 @@
     "when": {}
   },
   {
-  "type": "Place",
-  "additionalType": "Feature",
+  "type": "Feature",
+  "additionalType": "Place",
   "id": "c.f.MIB II 106/7",
   "description": "012345678901234567890123456789012345678901234567890123456789",
   "properties": {},
