@@ -85,7 +85,7 @@
    {
       "@type":"DataDownload",
       "encodingFormat":"JSON",
-      "contentUrl":"https://raw.githubusercontent.com/docuracy/TaNC/main/LaNC-T-geo.json"
+      "contentUrl":"https://raw.githubusercontent.com/docuracy/LaNC/main/LaNC-T-geo.json"
    }
 ],
 "spatialCoverage":{
