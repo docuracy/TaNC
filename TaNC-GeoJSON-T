@@ -1,0 +1,41 @@
+{
+"@context": [
+  "http://schema.org/",
+  {"LP": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/master/linkedplaces-context-v1.1.jsonld"}
+],
+"type": "FeatureCollection",
+"@type": "Dataset",
+"name": "TaNC Test Data",
+"description": "Dummy data assembled for the purpose of developing and testing indexing of schema.org.",
+"creator": {
+  "@type": "Organization",
+  "name": "British Library",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "96 Euston Rd, London",
+    "postalCode": "NW1 2DB",
+    "addressCountry": "GB"
+  },
+  "logo": "https://www.bl.uk/britishlibrary/resources/global/images/bl_logo_100.gif"
+},
+"license": "https://creativecommons.org/licenses/by/4.0/",
+"features": [
+  {
+  "type": "Feature",
+  "@type": "Place",
+  "id": "",
+  "properties": {},
+  "geometry": {
+    "type": "Point",
+    "coordinates": [73.98, 40.75]
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "addressCountry": "GB",
+    "latitude": "40.75",
+    "longitude": "73.98"
+  },
+  "when": {}
+  }
+]
+}
