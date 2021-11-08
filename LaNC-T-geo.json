@@ -28,6 +28,12 @@
   "additionalType": "Place",
   "id": "https://www.wikidata.org/wiki/Q33158363",
   "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
+  "license": "https://creativecommons.org/license-node-is-optional",
+  "creator": {
+    "@type": "Person",
+    "name": "Stephen Gadd",
+    "description": "creator-node-is-optional"
+  },
   "properties": {},
   "geometry": {
     "type": "Point",
@@ -45,7 +51,13 @@
   "type": "Feature",
   "additionalType": "Place",
   "id": "c.f.MIB II 106/7",
-  "description": "012345678901234567890123456789012345678901234567890123456789",
+  "description": "Must be at least 50 characters for Google validation *******",
+  "license": "https://creativecommons.org/license-node-is-optional",
+  "creator": {
+    "@type": "Person",
+    "name": "Leif Isaksen",
+    "description": "creator-node-is-optional"
+  },
   "properties": {},
   "geometry": {
     "type": "Point",
