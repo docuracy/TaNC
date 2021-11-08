@@ -25,11 +25,10 @@
 "features": [
   {
   "type": "Feature",
+  "additionalType": "Place",
   "id": "https://www.wikidata.org/wiki/Q33158363",
   "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
-  "properties": {
-    "@type": "Place"
-  },
+  "properties": {},
   "geometry": {
     "type": "Point",
     "coordinates": [-1.3213503206892254, 53.920076131008514]
@@ -40,7 +39,7 @@
     "longitude": "-1.3213503206892254",
     "latitude": "53.920076131008514"
   },
-  "when": {}
+    "when": {}
   }
 ],
 "funder":{
@@ -56,7 +55,7 @@
    {
       "@type":"DataDownload",
       "encodingFormat":"JSON",
-      "contentUrl":"https://raw.githubusercontent.com/docuracy/TaNC/main/TaNC-GeoJSON-T.json"
+      "contentUrl":"https://raw.githubusercontent.com/docuracy/TaNC/main/LaNC-GeoJSON-T.json"
    }
 ],
 "spatialCoverage":{
