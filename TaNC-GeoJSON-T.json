@@ -1,7 +1,7 @@
 {
 "@context": [
-  "http://schema.org/",
-  {"LP": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/master/linkedplaces-context-v1.1.jsonld"}
+  {"LP": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/master/linkedplaces-context-v1.1.jsonld"},
+  "http://schema.org/"
 ],
 "type": "FeatureCollection",
 "@type": "Dataset",
