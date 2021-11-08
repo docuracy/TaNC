@@ -1,10 +1,13 @@
 {
 "@context": [
   {"LP": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/master/linkedplaces-context-v1.1.jsonld"},
-  "http://schema.org/"
+  "http://schema.org/",
+  {"FeatureCollection": "http://schema.org/Dataset"},
+  {"features": "http://schema.org/hasPart"},
+  {"Feature": "http://schema.org/Dataset"},
+  {"id": "http://schema.org/name"}
 ],
 "type": "FeatureCollection",
-"@type": "Dataset",
 "name": "TaNC Test Data",
 "description": "Dummy data assembled for the purpose of developing and testing indexing of schema.org.",
 "creator": {
@@ -22,9 +25,11 @@
 "features": [
   {
   "type": "Feature",
-  "@type": "Place",
-  "id": "",
-  "properties": {},
+  "id": "https://www.wikidata.org/wiki/Q33158363",
+  "description": "You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
+  "properties": {
+    "@type": "Place"
+  },
   "geometry": {
     "type": "Point",
     "coordinates": [-1.3213503206892254, 53.920076131008514]
@@ -37,5 +42,29 @@
   },
   "when": {}
   }
-]
+],
+"funder":{
+   "@type": "Organization",
+   "sameAs": "https://ror.org/00tgqzw13",
+   "name": "National Weather Service"
+},
+"includedInDataCatalog":{
+   "@type":"DataCatalog",
+   "name":"data.gov"
+},
+"distribution":[
+   {
+      "@type":"DataDownload",
+      "encodingFormat":"JSON",
+      "contentUrl":"http://www.ncdc.noaa.gov/stormevents/ftp.jsp"
+   }
+],
+"temporalCoverage":"1950-01-01/2013-12-18",
+"spatialCoverage":{
+   "@type":"Place",
+   "geo":{
+      "@type":"GeoShape",
+      "box":"18.0 -65.0 72.0 172.0"
+   }
+}
 }
