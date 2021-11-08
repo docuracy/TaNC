@@ -2,15 +2,18 @@
 "@context": [
   {"LP": "https://raw.githubusercontent.com/LinkedPasts/linked-places-format/master/linkedplaces-context-v1.1.jsonld"},
   "http://schema.org/",
-  {"FeatureCollection": "http://schema.org/Dataset"},
-  {"features": "http://schema.org/hasPart"},
-  {"Feature": "http://schema.org/Dataset"},
-  {"id": "http://schema.org/name"},
-  {"when": "http://schema.org/temporalCoverage"},
-  {"metal": "http://schema.org/material"},
-  {"mintName": "http://schema.org/locationCreated"},
-  {"uri": "http://schema.org/archivedAt"},
-  {"source": "http://schema.org/citation"}
+  {
+    "FeatureCollection": "http://schema.org/Dataset",
+    "features": "http://schema.org/hasPart",
+    "coordinates": "LP",
+    "Feature": "http://schema.org/Dataset",
+    "id": "http://schema.org/name",
+    "when": "http://schema.org/temporalCoverage",
+    "metal": "http://schema.org/material",
+    "mintName": "http://schema.org/locationCreated",
+    "uri": "http://schema.org/archivedAt",
+    "source": "http://schema.org/citation"
+  }
 ],
 "type": "FeatureCollection",
 "name": "TaNC Test Data",
