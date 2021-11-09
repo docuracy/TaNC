@@ -1,5 +1,6 @@
 {
 "@context": [
+  {"lp": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.1.jsonld"},
   "http://schema.org/",
   {"ld": "https://geojson.org/geojson-ld/geojson-context.jsonld"},
   {
@@ -7,6 +8,7 @@
     "features": "http://schema.org/hasPart",
     "geometry": "ld",
     "coordinates": "ld",
+    "links": "lp",
     "Feature": "http://schema.org/Dataset",
     "id": "http://schema.org/name",
     "when": "http://schema.org/temporalCoverage",
