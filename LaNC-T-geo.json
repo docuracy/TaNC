@@ -56,7 +56,29 @@
       "longitude": "-1.3213503206892254",
       "latitude": "53.920076131008514"
     },
-    "when": "1970/2021"
+    "when": "1970/2021",
+    "links": [
+      {
+        "link-type": "exactMatch",
+        "link-identifier": "wd:Q321381"
+      },
+      {
+        "type": "closeMatch",
+        "identifier": "bnf:Q321381"
+      },
+      {
+        "type": "primaryTopicOf",
+        "identifier": "gn:Q321381"
+      },
+      {
+        "type": "subjectOf",
+        "identifier": "loc:Q321381"
+      },
+      {
+        "type": "seeAlso",
+        "identifier": "wp:Q321381"
+      }
+    ]
   },
   {
     "type": "Feature",
@@ -100,29 +122,7 @@
         "latitude": "41.008239047196604"
       }
     ],
-    "when": "512/517",
-    "links": [
-      {
-        "link-type": "exactMatch",
-        "link-identifier": "wd:Q321381"
-      },
-      {
-        "type": "closeMatch",
-        "identifier": "bnf:Q321381"
-      },
-      {
-        "type": "primaryTopicOf",
-        "identifier": "gn:Q321381"
-      },
-      {
-        "type": "subjectOf",
-        "identifier": "loc:Q321381"
-      },
-      {
-        "type": "seeAlso",
-        "identifier": "wp:Q321381"
-      }
-    ]
+    "when": "512/517"
   }
 ],
 "funder":{
