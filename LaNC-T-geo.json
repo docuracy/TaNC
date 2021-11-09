@@ -15,7 +15,10 @@
     "mintName": "http://schema.org/locationCreated",
     "uri": "http://schema.org/archivedAt",
     "source": "http://schema.org/citation",
-    "Repository": "maintainer"
+    "Repository": "http://schema.org/maintainer",
+    "Site Name": "http://schema.org/name",
+    "URL": "http://schema.org/mainEntityOfPage",
+    "Scottish Thesaurus of Monument Types": "http://schema.org/identifier"
   }
 ],
 "type": "FeatureCollection",
@@ -174,6 +177,37 @@
       }
     ],
     "when": "1150/1174"
+  },
+  {
+    "type": "Feature",
+    "additionalType": ["Place","LandmarksOrHistoricalBuildings"],
+    "creator": {
+        "@type": "Organization",
+        "name": "Canmore.org"
+      },
+    "id": "Canmore:55620",
+    "description": "Trimontium is a Roman fort complex in Scotland. Located at Newstead, near Melrose, in the Scottish Borders, in view of the three Eildon Hills (Latin: trium montium, three hills), it is a remarkable site that still has much to reveal.",
+    "license": "https://creativecommons.org/license-node-is-optional",
+    "properties": {
+      "Site Name": "Newstead",
+      "alternateName": "Trimontium",
+      "Classification": "Roman Fort OR Fort Annexe(S) (Roman), Roman Fort (Roman), Temporary Camp(S) (Roman)",
+      "Thesaurus Term UID": "2322",
+      "Scottish Thesaurus of Monument Types": "https://canmore.org.uk/thesaurus/1/2322/ROMAN%20FORT",
+      "URL": "https://canmore.org.uk/site/55620"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [-2.687,55.601]
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "addressCountry": "GB",
+      "longitude": "-2.687",
+      "latitude": "55.601"
+    },
+    "when": "80/180",
+    "@comment": "Can the 'when' tag optionally be populated from a drop-down PeriodO table? Possibly outdated PeriodO data available as JSON at https://raw.githubusercontent.com/periodo/periodo-data/master/initial-data.json. Alternative might be Historic England Periods Authority File, but the link from here is dead: https://www.heritagedata.org/blog/vocabularies-provided/"
   }
 ],
 "funder":{
