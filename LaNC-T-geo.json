@@ -5,6 +5,7 @@
   {
     "FeatureCollection": "http://schema.org/Dataset",
     "features": "http://schema.org/hasPart",
+    "geometry": "ld",
     "coordinates": "ld",
     "Feature": "http://schema.org/Dataset",
     "id": "http://schema.org/name",
@@ -43,7 +44,7 @@
       "description": "creator-node-is-optional"
     },
     "properties": {},
-    "ld:geometry": {
+    "geometry": {
       "type": "Point",
       "coordinates": [-1.3213503206892254, 53.920076131008514]
     },
@@ -79,7 +80,7 @@
       "rulerName": "Anastasius I",
       "mintName": "Constantinople {* aliased as 'locationCreated', and geocoded manually to MultiPoint geometry *}"
     },
-    "ld:geometry": {
+    "geometry": {
         "type": "MultiPoint",
         "coordinates": [[-2.6827508, 51.002024], [28.973398552441676, 41.008239047196604]]
     },
