@@ -36,7 +36,7 @@
   {
     "type": "Feature",
     "additionalType": ["Place","CivicStructure"],
-    "id": "https://do-we-want-to-mint-uids?",
+    "id": "https://do-we-want-to-mint-uuids?https://uuid.ramsey.dev/en/stable/",
     "description": "{* Must be at least 50 characters for Google validation. *} You can consult millions of items including books, periodicals, newspapers, microfilm, sound recordings and electronic resources in our Reading Room at Boston Spa, near Wetherby in Yorkshire.",
     "license": "https://creativecommons.org/license-node-is-optional",
     "creator": {
@@ -123,6 +123,53 @@
       }
     ],
     "when": "512/517"
+  },
+  {
+    "type": "Feature",
+    "additionalType": ["Place","CreativeWork"],
+    "id": "041-001102330",
+    "description": "Libellus de Primo Saxonum vel Normannorum Adventu ending with an epitome of Symeon of Durham, Historia Regum; De VII Mirabilibus Mundi; Historia Brittonum ('Gildasian' recension, imperfect)",
+    "license": "https://creativecommons.org/license-node-is-optional",
+    "creator": {
+      "@type": "Person",
+      "name": "Simeon of Durham",
+      "birthDate": "1060",
+      "deathDate": "1128",
+      "identifier": [
+        "http://isni.org/isni/0000 0000 8004 4353",
+        "http://viaf.org/viaf/0000 0000 8004 4353"
+      ],
+      "@comment": "A data field (in this case 'Creators') might be programmatically parsed to extract identifiers and birth/death years."
+    },
+    "properties": {
+      "Repository": "British Library",
+      "Collection Area": "Western Manuscripts",
+      "Project collection": "Cotton Collection; England and France 700-1200 Project",
+      "Record reference": "Cotton MS Caligula A VIII, ff 28–58",
+      "Metadata persistent identifier": "ark:/81055/vdc_100000001630.0x000158",
+      "Type of record (level)": "Item",
+      "Extent & format": "Part of Cotton MS Caligula A VIII.",
+      "Access conditions": "Restrictions to access apply please consult British Library staff",
+      "Language codes": ["lat"],
+      "Scope & content": "These folios contain various historical texts copied in the north of England in the 3rd quarter of the 12th century. Contents:. ff. 28r–43r: Libellus de Primo Saxonum vel Normannorum Adventu (The Book about the First Arrival of the Saxons or Normans). . ff. 36r–43r: An epitome of Symeon of Durham (c. 1060-c. 1128), Historia Regum (The History of Kings), forming an ending for the Libellus de Primo Saxonum vel Normannorum Adventu. . ff. 43v–44r: De VII Mirabilibus Mundi (About the Seven Wonders of the World). . ff. 44r–58v: Historia Brittonum (The History of Britons)('Gildasian' recension, imperfect). Decoration:. 1 miniature depicting Woden surrounded by 5 ancestors of the dynasties of Anglo-Saxon kingdoms (f. 29r). Initials in red and green (throughout). Initials in red and/or green with penwork decoration (ff. 44r, 44v).",
+      "Physical characteristics": "Script: Protogothic.",
+      "Custodial history": "Origin: Northern England. Provenance:. ?Nicholas Brigham (d. 1558), administrator and antiquary. John Bale (b. 1495, d. 1563), bishop of Ossory, evangelical polemicist, and historian: annotated by him (see Tite, Early Records (2003), p. 114).",
+      "Related places": "Northern England",
+      "Related subjects": "History",
+      "@comment": "It may be useful to be able to specify a delimiter for separating values into an array when parsing, for example multiple language codes which would be separated by semicolons. It may be useful to flag 'Related places' as a field to be geolocated."
+    },
+    "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [],
+        "@comment": "This record might best be represented by, for example, null geometry (an empty array) or a MultiPolygon outlining GB"
+    },
+    "geo": [
+      {
+        "@type": "GeoCoordinates",
+        "addressCountry": "GB"
+      }
+    ],
+    "when": "1150/1174"
   }
 ],
 "funder":{
