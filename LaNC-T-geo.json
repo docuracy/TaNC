@@ -14,7 +14,8 @@
     "metal": "http://schema.org/material",
     "mintName": "http://schema.org/locationCreated",
     "uri": "http://schema.org/archivedAt",
-    "source": "http://schema.org/citation"
+    "source": "http://schema.org/citation",
+    "Repository": "maintainer"
   }
 ],
 "type": "FeatureCollection",
@@ -142,7 +143,10 @@
       "@comment": "A data field (in this case 'Creators') might be programmatically parsed to extract identifiers and birth/death years."
     },
     "properties": {
-      "Repository": "British Library",
+      "Repository": {
+        "@type": "Organization",
+        "name": "British Library"
+      },
       "Collection Area": "Western Manuscripts",
       "Project collection": "Cotton Collection; England and France 700-1200 Project",
       "Record reference": "Cotton MS Caligula A VIII, ff 28–58",
@@ -156,7 +160,7 @@
       "Custodial history": "Origin: Northern England. Provenance:. ?Nicholas Brigham (d. 1558), administrator and antiquary. John Bale (b. 1495, d. 1563), bishop of Ossory, evangelical polemicist, and historian: annotated by him (see Tite, Early Records (2003), p. 114).",
       "Related places": "Northern England",
       "Related subjects": "History",
-      "@comment": "It may be useful to be able to specify a delimiter for separating values into an array when parsing, for example multiple language codes which would be separated by semicolons. It may be useful to flag 'Related places' as a field to be geolocated."
+      "@comment": "It may be useful to be able to specify a delimiter for separating values into an array when parsing, for example multiple language codes and 'Related places' which would be separated by semicolons. It may be useful to flag 'Related places' as a field to be geolocated."
     },
     "geometry": {
         "type": "MultiPoint",
