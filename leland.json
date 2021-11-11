@@ -5,6 +5,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "82e58f0a-7065-47f4-af02-b503d3eda805",
+            "version_id": "e25dd186-f812-4d8b-b7f5-028a67c612b9",
+            "annotates": {
+              "document_id": "ow7movegjgco3e",
+              "filepart_id": "a21c1d90-7d83-4639-a762-7278272996c8",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "ColinGreenstreet"
+            ],
+            "anchor": "lbox:rx=2909,ry=3633,px=2735,py=3679,a=0.041933445873399026,l=143,h=64",
+            "last_modified_by": "ColinGreenstreet",
+            "last_modified_at": "2021-05-16T22:32:34+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "ColinGreenstreet",
+                "last_modified_at": "2021-05-16T22:32:34+00:00",
+                "value": "town",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q3957"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "ColinGreenstreet",
+                "last_modified_at": "2021-05-16T22:32:34+00:00",
+                "value": "Upton"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "ColinGreenstreet",
+                "last_modified_at": "2021-05-16T22:32:34+00:00",
+                "status": {
+                  "value": "NOT_IDENTIFIABLE",
+                  "set_by": "ColinGreenstreet",
+                  "set_at": "2021-05-16T22:32:34+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -2.286658,
           52.334893
@@ -3960,6 +4016,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "4ff50798-b7ba-4aec-8b3c-0cfdee0b06c9",
+            "version_id": "e9bcdb29-e118-447d-99c1-0a3e7479141e",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=3787,ry=3066,px=3694,py=3122,a=0.06374331253268707,l=94,h=66",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-23T09:25:33+00:00",
+            "bodies": [
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T09:25:04+00:00",
+                "value": "Hiyll"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T09:25:04+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-23T09:25:04+00:00"
+                }
+              },
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T09:25:04+00:00",
+                "value": "hamlet",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q5084"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -1.96428,
           52.05777
@@ -5117,6 +5229,62 @@
                 "value": "manor-box",
                 "reference": {
                   "uri": "https://www.wikidata.org/wiki/Q879050"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "d07c078e-2292-4b74-9ef2-0404bdf74524",
+            "version_id": "97c650d5-2321-4053-9609-2b6486742c6a",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=2318,ry=3939,px=2204,py=4008,a=-0.027674593566440125,l=289,h=59",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-18T15:40:20+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:40:20+00:00",
+                "value": "town",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q3957"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:40:20+00:00",
+                "value": "LYDBVRYE"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:40:20+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-18T15:40:20+00:00"
                 }
               }
             ]
@@ -10582,6 +10750,56 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "2b6300cb-480e-4c07-8e2c-ac48c16c20f8",
+            "version_id": "90cc41b4-806a-4c27-856b-162618d193d4",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "point:3438,3072",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-23T09:28:02+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T09:28:02+00:00",
+                "value": "bridge",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q12280"
+                }
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T09:28:02+00:00",
+                "status": {
+                  "value": "NOT_IDENTIFIABLE",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-23T09:28:02+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -2.075424,
           52.109723
@@ -12876,6 +13094,62 @@
                   "value": "VERIFIED",
                   "set_by": "MichaelHall",
                   "set_at": "2021-06-24T12:39:46+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "1dbedee1-a664-41ef-b74f-7b19522c8a04",
+            "version_id": "93c6b421-f7e7-47f3-94cc-e8295905ca61",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=1683,ry=2290,px=1577,py=2344,a=-0.027265968455594463,l=220,h=62",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-24T12:47:47+00:00",
+            "bodies": [
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-24T12:47:38+00:00",
+                "value": "Nether hanley"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-21T12:51:52+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-21T12:51:52+00:00"
+                }
+              },
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-21T12:51:52+00:00",
+                "value": "village-spire",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q532"
                 }
               }
             ]
@@ -15535,6 +15809,62 @@
                 "type": "TAG",
                 "last_modified_by": "MichaelHall",
                 "last_modified_at": "2021-06-19T21:14:00+00:00",
+                "value": "village-spire",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q532"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "4e1baf16-8766-4f19-b30a-546378820c5b",
+            "version_id": "92bdc4d5-0643-443f-810a-276b2f7b9c80",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=3855,ry=3481,px=3785,py=3523,a=-0.030524866917202766,l=131,h=42",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-25T09:50:45+00:00",
+            "bodies": [
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-25T09:48:41+00:00",
+                "value": "Ouerton"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-25T09:48:41+00:00",
+                "status": {
+                  "value": "NOT_IDENTIFIABLE",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-25T09:48:41+00:00"
+                }
+              },
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-25T09:48:41+00:00",
                 "value": "village-spire",
                 "reference": {
                   "uri": "https://www.wikidata.org/wiki/Q532"
@@ -25337,6 +25667,62 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "15f6cf93-ff08-44da-bfdc-8d3075dc40c8",
+            "version_id": "4d55e623-274a-4f16-afa3-59984e30cfb1",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=3548,ry=3647,px=3490,py=3691,a=-0.007873853024100543,l=127,h=44",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-21T18:20:48+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-21T18:20:48+00:00",
+                "value": "village-spire",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q532"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-21T18:20:48+00:00",
+                "value": "Norton"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-21T18:20:48+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-21T18:20:48+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
         "coordinates": [
           -2.08762764930725,
           52.4248194191386
@@ -26123,6 +26509,62 @@
                   "value": "VERIFIED",
                   "set_by": "MichaelHall",
                   "set_at": "2021-06-23T09:39:25+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "16857467-d3e4-4983-90a8-6e5a1641612e",
+            "version_id": "5e342508-13ec-4704-891b-a378a9ff3516",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=2347,ry=3345,px=2331,py=3412,a=-0.03277514440407577,l=122,h=67",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-23T10:22:06+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T10:22:06+00:00",
+                "value": "village-spire",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q532"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T10:22:06+00:00",
+                "value": "Credley"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-23T10:22:06+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-23T10:22:06+00:00"
                 }
               }
             ]
@@ -27170,6 +27612,62 @@
                   "value": "VERIFIED",
                   "set_by": "MichaelHall",
                   "set_at": "2021-06-24T14:32:44+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "62e8d2f9-f9de-49fa-a1f8-eaf77e991842",
+            "version_id": "81509430-45d3-4668-b695-4170b6100dbf",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=3264,ry=2095,px=3240,py=2225,a=1.0584068664841588,l=165,h=44",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-24T14:26:35+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-24T14:26:35+00:00",
+                "value": "river",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q4022"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-24T14:26:35+00:00",
+                "value": "Salwarp flu:"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-24T14:26:35+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-24T14:26:35+00:00"
                 }
               }
             ]
@@ -29247,6 +29745,62 @@
                   "value": "VERIFIED",
                   "set_by": "MichaelHall",
                   "set_at": "2021-06-18T15:37:44+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "e694273e-48f7-4d24-9761-b9aae0faf3d7",
+            "version_id": "d054a5c0-f5e6-4f4f-9c28-ff3dcd12d138",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "lbox:rx=1774,ry=1700,px=1646,py=1758,a=-0.014813731111901346,l=135,h=62",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-18T15:36:32+00:00",
+            "bodies": [
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:36:32+00:00",
+                "value": "village-spire",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q532"
+                }
+              },
+              {
+                "type": "TRANSCRIPTION",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:36:32+00:00",
+                "value": "Cliberye"
+              },
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-18T15:36:32+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-18T15:36:32+00:00"
                 }
               }
             ]
@@ -37593,6 +38147,106 @@
                   "value": "VERIFIED",
                   "set_by": "MichaelHall",
                   "set_at": "2021-06-28T15:24:08+00:00"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "92d851f0-b999-4993-b135-be1d71d79776",
+            "version_id": "a07ceb7c-59cc-45eb-9ef2-425c2007a4ba",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "point:5189,2921",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-29T08:51:24+00:00",
+            "bodies": [
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-29T08:32:50+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-29T08:32:50+00:00"
+                }
+              },
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-29T08:32:50+00:00",
+                "value": "bridge",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q12280"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": "[0,0]"
+      },
+      "properties": {
+        "gazette": [
+          {
+            "annotation_id": "9f13b151-6b86-4ff9-9f99-ae545c9a34e7",
+            "version_id": "92118825-519f-438f-8ec5-e68235839781",
+            "annotates": {
+              "document_id": "nnclx5ynmz3zvy",
+              "filepart_id": "61f1f632-ffc5-447c-8c3a-b4177110409e",
+              "content_type": [
+                "IMAGE",
+                "IMAGE_IIIF"
+              ]
+            },
+            "contributors": [
+              "MichaelHall"
+            ],
+            "anchor": "point:5284,3157",
+            "last_modified_by": "MichaelHall",
+            "last_modified_at": "2021-06-29T08:51:21+00:00",
+            "bodies": [
+              {
+                "type": "PLACE",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-29T08:33:00+00:00",
+                "status": {
+                  "value": "UNVERIFIED",
+                  "set_by": "MichaelHall",
+                  "set_at": "2021-06-29T08:33:00+00:00"
+                }
+              },
+              {
+                "type": "TAG",
+                "last_modified_by": "MichaelHall",
+                "last_modified_at": "2021-06-29T08:33:00+00:00",
+                "value": "bridge",
+                "reference": {
+                  "uri": "https://www.wikidata.org/wiki/Q12280"
                 }
               }
             ]
