@@ -60,6 +60,42 @@
       "latitude": "53.920076131008514"
     },
     "when": "1970/2021",
+    "depictions": [
+        { "@id": "https://commons.wikimedia.org/wiki/File:ThamesAtAbingdon.jpg",
+          "title": "The River Thames at Abingdon, Oxfordshire",
+          "license": "cc:by-sa/3.0/", 
+        }
+    ],
+    "targets": [
+      {
+        "source" : "https://recogito.pelagios.org/part/46c9126b-6904-4229-bfc3-06b40d1834f1",
+        "type" : "Image",
+        "label" : "Map of Somewhere",
+        "selector" : [ {
+          "type" : "FragmentSelector",
+          "conformsTo" : "http://www.w3.org/TR/media-frags/",
+          "value" : "xywh=pixel:1992,3092,274,274"
+        } ]
+      },
+      {
+      "source" : "https://recogito.pelagios.org/part/5ec8253d-f398-4355-82d8-ba7f324ea935",
+      "type" : "Text",
+      "selector" : [ {
+          "type" : "TextQuoteSelector",
+          "exact" : "Ithaca"
+        }, {
+          "type" : "RangeSelector",
+          "startSelector" : {
+            "type" : "XPathSelector",
+            "value" : "/TEI[1]/text[1]/body[1]/div[1]/p[2]"
+          },
+          "endSelector" : {
+            "type" : "XPathSelector",
+            "value" : "/TEI[1]/text[1]/body[1]/div[1]/p[2]"
+          }
+        } ]
+      }
+    ],
     "links": [
       {
         "type": "exactMatch",
