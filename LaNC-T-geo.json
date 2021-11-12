@@ -63,7 +63,7 @@
     "depictions": [
         { "@id": "https://commons.wikimedia.org/wiki/File:ThamesAtAbingdon.jpg",
           "title": "The River Thames at Abingdon, Oxfordshire",
-          "license": "cc:by-sa/3.0/", 
+          "license": "cc:by-sa/3.0/" 
         }
     ],
     "targets": [
