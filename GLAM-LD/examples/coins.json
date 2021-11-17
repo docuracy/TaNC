@@ -1,7 +1,11 @@
 {
   "@context": [
     "http://schema.org/",
-    {"la": "https://linked.art/ns/v1/linked-art.json"}
+    {"la": "https://linked.art/ns/v1/linked-art.json"},
+    {
+      "Set": "http://schema.org/Dataset",
+      "member": "http://schema.org/hasPart"
+    }
   ],
   "id": "https://***link-to-dataset-on-zenodo***/coins",
   "type": "Set",
