@@ -1,0 +1,115 @@
+{
+  "@context": [
+    "http://schema.org/",
+    {"la": "https://linked.art/ns/v1/linked-art.json"}
+  ],
+  "id": "https://***link-to-dataset-on-zenodo***/coins",
+  "type": "Set",
+  "_label": "Example Object Collection",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300025976",
+      "type": "Type",
+      "_label": "Collection"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "content": "Example Object Collection"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435416",
+          "type": "Type",
+          "_label": "Description",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300418049",
+              "type": "Type",
+              "_label": "Brief Text"
+            }
+          ]
+        }
+      ],
+      "content": "Early Byzantine copper coins found in Britain"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "timespan": {
+      "type": "TimeSpan",
+      "begin_of_the_begin": "2022-01-01",
+      "end_of_the_end": "2000-01-01"
+    }
+  },
+  "member": [
+    {
+      "id": "c.f.MIBE 27",
+      "type": "HumanMadeObject",
+      "additionalType": ["CreativeWork"],
+      "_label": "Anastasius I (491-518), Constantinople, follis (512-7). Pierced",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300037222",
+          "type": "Type",
+          "_label": "Coin",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300435443",
+              "type": "Type",
+              "_label": "Type of Work"
+            }
+          ]
+        }
+      ],
+      "produced_by": {
+        "type": "Production",
+        "timespan": {
+          "type": "TimeSpan",
+          "begin_of_the_begin": "512-01-01",
+          "end_of_the_end": "518-01-01"
+        },
+        "took_place_at": [
+          {
+            "type": "Place",
+            "_label": "Constantinople",
+            "defined_by": "POINT(28.973398552441676 41.008239047196604)"
+          }
+        ]
+      },
+      "part": [
+        {
+          "type": "Activity",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300266151",
+              "type": "Type",
+              "_label": "Archaeological Excavation"
+            },
+          ],
+          "part": [
+            "type": "Encounter",
+            "_label": "Archaeological Excavation",
+            "timespan": {
+              "type": "TimeSpan",
+              "begin_of_the_begin": "1900-01-01T00:00:00Z",
+              "end_of_the_end": "2000-01-01T00:00:00Z"
+            },
+            "took_place_at": [
+              {
+                "type": "Place",
+                "_label": "Ilchester 3",
+                "defined_by": "POINT(-2.6827508 51.002024)"
+              }
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
