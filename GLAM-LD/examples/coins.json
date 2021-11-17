@@ -90,23 +90,25 @@
               "id": "http://vocab.getty.edu/aat/300266151",
               "type": "Type",
               "_label": "Archaeological Excavation"
-            },
+            }
           ],
           "part": [
-            "type": "Encounter",
-            "_label": "Archaeological Excavation",
-            "timespan": {
-              "type": "TimeSpan",
-              "begin_of_the_begin": "1900-01-01T00:00:00Z",
-              "end_of_the_end": "2000-01-01T00:00:00Z"
-            },
-            "took_place_at": [
-              {
-                "type": "Place",
-                "_label": "Ilchester 3",
-                "defined_by": "POINT(-2.6827508 51.002024)"
-              }
-            ]
+            {
+              "type": "Encounter",
+              "_label": "Archaeological Excavation",
+              "timespan": {
+                "type": "TimeSpan",
+                "begin_of_the_begin": "1900-01-01T00:00:00Z",
+                "end_of_the_end": "2000-01-01T00:00:00Z"
+              },
+              "took_place_at": [
+                {
+                  "type": "Place",
+                  "_label": "Ilchester 3",
+                  "defined_by": "POINT(-2.6827508 51.002024)"
+                }
+              ]
+            }
           ]
         }
       ]
