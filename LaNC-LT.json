@@ -19,7 +19,13 @@
       "title": "Constantinople",
       "relation": "locationCreated",
       "when": [{"earliest": "0400", "latest": "0700"}],
-      "id": "https://whgazetteer.org/places/12345979"
+      "id": "https://whgazetteer.org/places/12345979",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "addressCountry": "TR",
+        "longitude": "28.973398552441676",
+        "latitude": "41.008239047196604"
+      }
     },
     {
       "title": "Ilchester",
@@ -30,14 +36,12 @@
         "type": "Point",
         "coordinates": [-2.6827508, 51.002024]
       },
-      "geo": [
-        {
-          "@type": "GeoCoordinates",
-          "addressCountry": "GB",
-          "longitude": "-2.6827508",
-          "latitude": "51.002024"
-        }
-      ]
+      "geo": {
+        "@type": "GeoCoordinates",
+        "addressCountry": "GB",
+        "longitude": "-2.6827508",
+        "latitude": "51.002024"
+      }
     }
   ],
   "target": 
