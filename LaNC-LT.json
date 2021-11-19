@@ -7,6 +7,7 @@
   ],
   "id": "xxxx-some-uuid-xxxx",
   "type": "Annotation",
+  "additionalType": ["Place","CreativeWork"],
   "creator": {
     "id":"https://orcid.org/0000-0003-3060-0181",
     "name":"Stephen Gadd"
@@ -15,17 +16,28 @@
   "motivation": "linking",
   "body": [
     {
-      "title": "Khotan",
-      "relation": "findspot",
+      "title": "Constantinople",
+      "relation": "locationCreated",
       "when": [{"earliest": "0400", "latest": "0700"}],
+      "id": "https://whgazetteer.org/places/12345979"
+    },
+    {
+      "title": "Ilchester",
+      "relation": "findspot",
+      "when": [{"earliest": "1900", "latest": "2009"}],
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -67.368164,
-          8.072825
-        ]
-      }
+        "coordinates": [-2.6827508, 51.002024]
+      },
+      "geo": [
+        {
+          "@type": "GeoCoordinates",
+          "addressCountry": "GB",
+          "longitude": "-2.6827508",
+          "latitude": "51.002024"
+        }
+      ]
     }
   ],
   "target": 
