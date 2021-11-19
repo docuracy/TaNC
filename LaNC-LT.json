@@ -33,7 +33,7 @@
       "name": "Coin",
       "description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced.",
       "additionalType": "CreativeWork",
-      "motivation": "linking",
+      "motivation": "geotagging",
       "body": [
         {
           "@type": "Dataset",
@@ -71,9 +71,9 @@
         }
       ],
       "target": 
-        { "id": "https://www.britishmuseum.org/explore/a_history_of_the_world/objects.aspx#50",
-          "type": ["Artifact"],
-          "title": "Silk princess painting"
+        { "id": "https://www.academia.edu/11482638/_Early_Byzantine_copper_coins_found_in_Britain_A_review_of_new_finds_recorded_with_the_Portable_Antiquities_Scheme_Ancient_History_Numismatics_and_Epigraphy_in_the_Mediterranean_World_ed_Og%C5%ADz_Tekin_Yayinlari_Istanbul_2009_263_274",
+          "type": ["Artefact","Coin"],
+          "title": "Early Byzantine copper coins found in Britain"
         }
     }
   ]  
