@@ -1,0 +1,36 @@
+{ 
+  "@context":[
+    "http://www.w3.org/ns/anno.jsonld",
+    {
+      "lpo": "http://linkedpasts.org/ontology/lpo.jsonld"
+    }
+  ],
+  "id": "xxxx-some-uuid-xxxx",
+  "type": "Annotation",
+  "creator": {
+    "id":"https://orcid.org/0000-0003-3060-0181",
+    "name":"Stephen Gadd"
+  },
+  "created": "2021-11-01",
+  "motivation": "linking",
+  "body": [
+    {
+      "title": "Khotan",
+      "relation": "findspot",
+      "when": [{"earliest": "0400", "latest": "0700"}],
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.368164,
+          8.072825
+        ]
+      }
+    }
+  ],
+  "target": 
+    { "id": "https://www.britishmuseum.org/explore/a_history_of_the_world/objects.aspx#50",
+      "type": ["Artifact"],
+      "title": "Silk princess painting"
+    }
+}
