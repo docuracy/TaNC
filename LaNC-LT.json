@@ -39,7 +39,6 @@
 			"body": [
 				{
 					"title": "Constantinople",
-					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "locationCreated",
 					"when": [{"earliest": "0400", "latest": "0700"}],
 					"geo": {
@@ -52,7 +51,6 @@
 				},
 				{
 					"title": "Ilchester",
-					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "findspot",
 					"when": [{"earliest": "1900", "latest": "2009"}],
 					"geo": {
