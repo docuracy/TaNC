@@ -14,7 +14,8 @@
 			"when": "http://schema.org/temporalCoverage",
 			"earliest": "http://schema.org/startDate",
 			"latest": "http://schema.org/endDate",
-			"target": "http://schema.org/subjectOf"
+			"target": "http://schema.org/subjectOf",
+			"links": "http://schema.org/isRelatedTo"
 		}
 	],
 	"@type": "Dataset",
@@ -39,7 +40,7 @@
 			"body": [
 				{
 					"@type": "Dataset",
-					"additionalType": ["Place"],
+					"additionalType": "Place",
 					"title": "Constantinople",
 					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "locationCreated",
@@ -54,7 +55,7 @@
 				},
 				{
 					"@type": "Dataset",
-					"additionalType": ["Place"],
+					"additionalType": "Place",
 					"title": "Ilchester",
 					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "findspot",
@@ -77,7 +78,13 @@
 				"id": "https://www.academia.edu/11482638/_Early_Byzantine_copper_coins_found_in_Britain_A_review_of_new_finds_recorded_with_the_Portable_Antiquities_Scheme_Ancient_History_Numismatics_and_Epigraphy_in_the_Mediterranean_World_ed_Og%C5%ADz_Tekin_Yayinlari_Istanbul_2009_263_274",
 				"lpo:type": ["Artefact","Coin"],
 				"title": "Early Byzantine copper coins found in Britain"
-			}
+			},
+			"links": [
+				{
+					"lpo:type": "seeAlso",
+					"identifier": "http://xxxx-some-other-url-xxxx"
+				}
+			]
 		}
 	]  
 }
