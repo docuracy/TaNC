@@ -6,6 +6,7 @@
 			"lpo": "http://linkedpasts.org/ontology/lpo.jsonld"
 		},
 		{
+			"id": "http://schema.org/identifier",
 			"Annotation": "http://schema.org/Dataset",
 			"traces": "http://schema.org/hasPart",
 			"body": "http://schema.org/hasPart",
@@ -56,17 +57,17 @@
 					"title": "Ilchester",
 					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"relation": "findspot",
-					"when": [{"earliest": "1900", "latest": "2009"}],
-					"type": "Feature",
-					"geometry": {
-						"type": "Point",
-						"coordinates": [-2.6827508, 51.002024]
-					},
+					"when": [{"earliest": "1900", "latest": "2009"}],,
 					"geo": {
 						"@type": "GeoCoordinates",
 						"addressCountry": "GB",
 						"longitude": "-2.6827508",
 						"latitude": "51.002024"
+					}
+					"lpo:type": "Feature",
+					"lpo:geometry": {
+						"type": "Point",
+						"coordinates": [-2.6827508, 51.002024]
 					}
 				}
 			],
