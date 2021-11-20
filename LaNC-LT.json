@@ -9,7 +9,7 @@
 			"id": "http://schema.org/identifier",
 			"Annotation": "http://schema.org/Dataset",
 			"traces": "http://schema.org/hasPart",
-			"body": "http://schema.org/hasPart",
+			"body": "http://schema.org/Place",
 			"title": "http://schema.org/name",
 			"when": "http://schema.org/temporalCoverage",
 			"earliest": "http://schema.org/startDate",
@@ -35,12 +35,9 @@
 			"id": "http://xxxx-some-url-xxxx",
 			"name": "Coin",
 			"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced.",
-			"additionalType": "CreativeWork",
 			"lpo:motivation": "geotagging",
 			"body": [
 				{
-					"@type": "Dataset",
-					"additionalType": "Place",
 					"title": "Constantinople",
 					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "locationCreated",
@@ -54,8 +51,6 @@
 					"id": "https://whgazetteer.org/places/12345979"
 				},
 				{
-					"@type": "Dataset",
-					"additionalType": "Place",
 					"title": "Ilchester",
 					"description": "xxxxxxxxxxxxxxxx - Must be at least 50 characters for Google validation - xxxxxxxxxxxxxxxx",
 					"lpo:relation": "findspot",
