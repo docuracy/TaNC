@@ -2,8 +2,8 @@
 	"@context":[
 		"http://schema.org/",
 		{
-			"anno": "http://www.w3.org/ns/anno.jsonld",
-			"lpo": "http://linkedpasts.org/ontology/lpo.jsonld"
+			"anno": "http://www.w3.org/ns/anno.jsonld/",
+			"lpo": "http://linkedpasts.org/ontology/lpo.jsonld/"
 		},
 		{
 			"_comment": "Aliasing allows use of the Linked Traces schema namespace",
@@ -17,7 +17,9 @@
 			"earliest": "http://schema.org/startDate",
 			"latest": "http://schema.org/endDate",
 			"target": "http://schema.org/subjectOf",
-			"links": "http://schema.org/isRelatedTo"
+			"links": "http://schema.org/isRelatedTo",
+			"motivation": "lpo:motivation",
+			"relation": "lpo:relation"
 		}
 	],
 	"@type": "Dataset",
@@ -37,11 +39,11 @@
 			"id": "http://xxxx-some-url-xxxx",
 			"name": "Coin",
 			"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced.",
-			"lpo:motivation": "geotagging",
+			"motivation": "geotagging",
 			"body": [
 				{
 					"title": "Constantinople",
-					"lpo:relation": "locationCreated",
+					"relation": "locationCreated",
 					"when": [{"earliest": "0400", "latest": "0700"}],
 					"geometry": {
 						"@type": "GeoCoordinates",
@@ -53,7 +55,7 @@
 				},
 				{
 					"title": "Ilchester",
-					"lpo:relation": "findspot",
+					"relation": "findspot",
 					"when": [{"earliest": "1900", "latest": "2009"}],
 					"geometry": {
 						"@type": "GeoCoordinates",
