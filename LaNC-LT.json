@@ -1,4 +1,5 @@
 { 
+	"_comment": "Aliasing allows use of the Linked Traces schema namespace",
 	"@context":[
 		"http://schema.org/",
 		{
@@ -6,7 +7,6 @@
 			"lpo": "http://linkedpasts.org/ontology/lpo.jsonld/"
 		},
 		{
-			"_comment": "Aliasing allows use of the Linked Traces schema namespace",
 			"id": "http://schema.org/identifier",
 			"Annotation": "http://schema.org/Dataset",
 			"traces": "http://schema.org/hasPart",
