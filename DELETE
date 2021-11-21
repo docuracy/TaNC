@@ -1,0 +1,58 @@
+{
+  "type": "FeatureCollection",
+  "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.jsonld",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "28.973398552441676",
+          "41.008239047196604"
+        ]
+      },
+      "properties": {
+        "name": "Constantinople",
+        "relation": "locationCreated"
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "earliest": "0400"
+            },
+            "end": {
+              "latest": "0700"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "-2.6827508",
+          "51.002024"
+        ]
+      },
+      "properties": {
+        "name": "Ilchester",
+        "relation": "findspot"
+      },
+      "when": {
+        "timespans": [
+          {
+            "start": {
+              "earliest": "1900"
+            },
+            "end": {
+              "latest": "2009"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
