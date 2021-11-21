@@ -1,0 +1,16 @@
+{
+    "type":"FeatureCollection",
+    "@context": "https://raw.githubusercontent.com/LinkedPasts/linked-places/master/linkedplaces-context-v1.jsonld",
+    "features":traces[target.type='CreativeWork'].body.{
+        "type":"Feature",
+        "geometry":{"type":"Point","coordinates":[geometry.longitude,geometry.latitude]},
+        "properties":{
+            "name":title,
+            "relation":relation
+        },
+        "when":{"timespans":[{
+            "start":{"earliest":when.earliest},
+            "end":{"latest":when.latest}
+        }]}
+    }
+}
