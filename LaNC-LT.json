@@ -19,7 +19,7 @@
 		}
 	],
 	"@type": "Dataset",
-	"name": "TaNC Test Data",
+	"name": "LaNC Test Data",
 	"description": "Dummy data assembled for the purpose of developing and testing indexing of schema.org, using https://search.google.com/test/rich-results.",
 	"creator": {
 		"@type": "Person",
@@ -58,11 +58,6 @@
 						"addressCountry": "GB",
 						"longitude": "-2.6827508",
 						"latitude": "51.002024"
-					},
-					"lpo:type": "Feature",
-					"lpo:geometry": {
-						"type": "Point",
-						"coordinates": [-2.6827508, 51.002024]
 					}
 				}
 			],
