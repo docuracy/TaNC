@@ -6,12 +6,14 @@
 			"lpo": "http://linkedpasts.org/ontology/lpo.jsonld"
 		},
 		{
+			"_comment": "Aliasing allows use of the Linked Traces schema namespace",
 			"id": "http://schema.org/identifier",
 			"Annotation": "http://schema.org/Dataset",
 			"traces": "http://schema.org/hasPart",
 			"body": "http://schema.org/Place",
 			"title": "http://schema.org/name",
 			"when": "http://schema.org/temporalCoverage",
+			"geometry": "http://schema.org/geo",
 			"earliest": "http://schema.org/startDate",
 			"latest": "http://schema.org/endDate",
 			"target": "http://schema.org/subjectOf",
@@ -20,7 +22,7 @@
 	],
 	"@type": "Dataset",
 	"name": "LaNC Test Data",
-	"description": "Dummy data assembled for the purpose of developing and testing indexing of schema.org, using https://search.google.com/test/rich-results.",
+	"description": "DATA MODEL STILL UNDER DEVELOPMENT: Dummy data assembled for the purpose of developing and testing indexing of schema.org, using https://search.google.com/test/rich-results.",
 	"creator": {
 		"@type": "Person",
 		"url":"https://orcid.org/0000-0003-3060-0181",
@@ -41,7 +43,7 @@
 					"title": "Constantinople",
 					"lpo:relation": "locationCreated",
 					"when": [{"earliest": "0400", "latest": "0700"}],
-					"geo": {
+					"geometry": {
 						"@type": "GeoCoordinates",
 						"addressCountry": "TR",
 						"longitude": "28.973398552441676",
@@ -53,7 +55,7 @@
 					"title": "Ilchester",
 					"lpo:relation": "findspot",
 					"when": [{"earliest": "1900", "latest": "2009"}],
-					"geo": {
+					"geometry": {
 						"@type": "GeoCoordinates",
 						"addressCountry": "GB",
 						"longitude": "-2.6827508",
