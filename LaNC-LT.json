@@ -39,6 +39,14 @@
 			"name": "Annotation",
 			"description": "Annotation linking a data item to various resources",
 			"motivation": "linking",
+			"target": 
+				{
+					"id": "https://www.academia.edu/11482638/_Early_Byzantine_copper_coins_found_in_Britain_A_review_of_new_finds_recorded_with_the_Portable_Antiquities_Scheme_Ancient_History_Numismatics_and_Epigraphy_in_the_Mediterranean_World_ed_Og%C5%ADz_Tekin_Yayinlari_Istanbul_2009_263_274",
+					"type": "CreativeWork",
+					"lpo:type": ["Artefact","Coin"],
+					"title": "Early Byzantine copper coins found in Britain",
+					"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced."
+				},
 			"body": [
 				{
 					"additionalType": "Place",
@@ -70,16 +78,14 @@
 					"title": "Anastasius I",
 					"lpo:type": "seeAlso",
 					"identifier": "https://www.wikidata.org/wiki/Q173470"
+				},
+				{
+					"additionalType": "LinkRole",
+					"linkRelationship": "Could be any text or controlled vocabulary item describing the relationship",
+					"lpo:type": "seeAlso",
+					"identifier": "http://xxxx-some-url-xxxx?Other_Annotation_or_Target"
 				}
-			],
-			"target": 
-			{
-				"id": "https://www.academia.edu/11482638/_Early_Byzantine_copper_coins_found_in_Britain_A_review_of_new_finds_recorded_with_the_Portable_Antiquities_Scheme_Ancient_History_Numismatics_and_Epigraphy_in_the_Mediterranean_World_ed_Og%C5%ADz_Tekin_Yayinlari_Istanbul_2009_263_274",
-				"type": "CreativeWork",
-				"lpo:type": ["Artefact","Coin"],
-				"title": "Early Byzantine copper coins found in Britain",
-				"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced."
-			}
+			]
 		}
 	]  
 }
