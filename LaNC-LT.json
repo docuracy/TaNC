@@ -10,14 +10,13 @@
 			"id": "http://schema.org/identifier",
 			"Annotation": "http://schema.org/Dataset",
 			"traces": "http://schema.org/hasPart",
-			"body": "http://schema.org/Place",
+			"body": "http://schema.org/isRelatedTo",
 			"title": "http://schema.org/name",
 			"when": "http://schema.org/temporalCoverage",
 			"geometry": "http://schema.org/geo",
 			"earliest": "http://schema.org/startDate",
 			"latest": "http://schema.org/endDate",
 			"target": "http://schema.org/subjectOf",
-			"links": "http://schema.org/isRelatedTo",
 			"motivation": "lpo:motivation",
 			"relation": "lpo:relation"
 		}
@@ -37,11 +36,12 @@
 		{  
 			"type": "Annotation",
 			"id": "http://xxxx-some-url-xxxx",
-			"name": "Coin",
-			"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced.",
-			"motivation": "geotagging",
+			"name": "Annotation",
+			"description": "Annotation linking a data item to various resources",
+			"motivation": "linking",
 			"body": [
 				{
+					"additionalType": "Place",
 					"title": "Constantinople",
 					"relation": "locationCreated",
 					"when": [{"earliest": "0400", "latest": "0700"}],
@@ -54,6 +54,7 @@
 					"id": "https://whgazetteer.org/places/12345979"
 				},
 				{
+					"additionalType": "Place",
 					"title": "Ilchester",
 					"relation": "findspot",
 					"when": [{"earliest": "1900", "latest": "2009"}],
@@ -63,6 +64,12 @@
 						"longitude": "-2.6827508",
 						"latitude": "51.002024"
 					}
+				},
+				{
+					"additionalType": "Person",
+					"title": "Anastasius I",
+					"lpo:type": "seeAlso",
+					"identifier": "https://www.wikidata.org/wiki/Q173470"
 				}
 			],
 			"target": 
@@ -70,14 +77,9 @@
 				"id": "https://www.academia.edu/11482638/_Early_Byzantine_copper_coins_found_in_Britain_A_review_of_new_finds_recorded_with_the_Portable_Antiquities_Scheme_Ancient_History_Numismatics_and_Epigraphy_in_the_Mediterranean_World_ed_Og%C5%ADz_Tekin_Yayinlari_Istanbul_2009_263_274",
 				"type": "CreativeWork",
 				"lpo:type": ["Artefact","Coin"],
-				"title": "Early Byzantine copper coins found in Britain"
-			},
-			"links": [
-				{
-					"lpo:type": "seeAlso",
-					"identifier": "http://xxxx-some-other-url-xxxx"
-				}
-			]
+				"title": "Early Byzantine copper coins found in Britain",
+				"description": "Anastasius I (491-518), Constantinople,follis (512-7). Pierced."
+			}
 		}
 	]  
 }
