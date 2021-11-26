@@ -1,4 +1,5 @@
 #Nearest cultural heritage sites
+#View results at https://query.wikidata.org/
 #defaultView:Map
 SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?classLabel_;separator="; ") as ?classLabel) ?image ?siteLabel
     WHERE {
