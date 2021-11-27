@@ -1,6 +1,6 @@
 #Nearest cultural heritage sites
 #View results at https://query.wikidata.org/
-#defaultView:Map
+#defaultView:Map{"hide":"?geo", "markercluster": {}}
 SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?classLabel_;separator=" | ") as ?classLabel) (SAMPLE(?image_) AS ?image) ?siteLabel
     WHERE {
           {?site wdt:P31/wdt:P279* wd:Q839954 .} # archaeological site
