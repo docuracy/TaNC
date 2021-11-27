@@ -1,7 +1,7 @@
 #Nearest cultural heritage sites
 #View results at https://query.wikidata.org/
 #defaultView:Map
-SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?classLabel_;separator="; ") as ?classLabel) ?image ?siteLabel
+SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?classLabel_;separator=" | ") as ?classLabel) (SAMPLE(?image_) AS ?image) ?siteLabel
     WHERE {
           {?site wdt:P31/wdt:P279* wd:Q839954 .} # archaeological site
           UNION {?site wdt:P31/wdt:P279* wd:Q916475 .} # historical monument
@@ -24,8 +24,8 @@ SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?cl
           ?site wdt:P31 ?class.
           SERVICE wikibase:around { 
                 ?site wdt:P625 ?geo . 
-                bd:serviceParam wikibase:center "Point(-3.564224203100305 52.241980731490386)"^^geo:wktLiteral . # Option: Specify location
-                # bd:serviceParam wikibase:center "[AUTO_COORDINATES]". # Option: User's location
+                # bd:serviceParam wikibase:center "Point(-3.564224203100305 52.241980731490386)"^^geo:wktLiteral . # Option: Specify location
+                bd:serviceParam wikibase:center "[AUTO_COORDINATES]". # Option: User's location
                 bd:serviceParam wikibase:radius "25" . 
                 bd:serviceParam wikibase:distance ?distance .
           }
@@ -36,6 +36,6 @@ SELECT DISTINCT ?site ?siteDescription ?geo ?distance (GROUP_CONCAT(DISTINCT ?cl
                                  ?site schema:description ?siteDescription . }
           OPTIONAL { ?site wdt:P18 ?image. }
     } 
-    GROUP BY  ?site ?siteDescription ?geo ?distance  ?image ?siteLabel
+    GROUP BY  ?site ?siteDescription ?geo ?distance ?image ?siteLabel
 ORDER BY ASC(?distance)
 LIMIT 100
