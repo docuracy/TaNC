@@ -42,7 +42,7 @@ function standardiseSVG(selector){
 	if (type=='xywh=pixel') type = (parameters[2]==0 & parameters[3]==0) ? 'point' : 'rect';
 	switch (type){
 	case "point":
-		SVG = '<circle cx="'+parameters[0]+'" cy="'+parameters[1]+'" r=".5" />';
+		SVG = '<circle cx="'+parameters[0]+'" cy="'+parameters[1]+'" r="5" />';
 		break;
 	case "rect":
 		SVG = '<rect x="'+parameters[0]+'" y="'+parameters[1]+'" width="'+parameters[2]+'" height="'+parameters[3]+'" />';
