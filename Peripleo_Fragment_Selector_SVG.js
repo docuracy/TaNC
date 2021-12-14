@@ -1,6 +1,7 @@
 // Standardise Fragment Selectors
 function standardiseSVG(selector){
 	if (selector.type == "SvgSelector") return selector;
+	const pointRadius = 6; // Minimum 0.5 for rendering
 	function getPoints([px,py,cx,cy,a,l,h]){ // Calculate tilted box corners
 	    var radians = (Math.PI / 180) * a, 
 	        cos = Math.cos(radians),
@@ -15,16 +16,12 @@ function standardiseSVG(selector){
 		points.push(rotate(cx+l,cy));
 		points.push(rotate(cx+l,cy-h));
 		points.push(rotate(cx,cy-h));
-		
 		if(px){ // Find linked box vertice closest to point
 			const distances = points.map(point => Math.sqrt((point[0]-px)**2 + (point[1]-py)**2));
 			var min = distances.indexOf(Math.min.apply(null,distances));
-			var line = '<defs><marker id="markerCircle" markerWidth="16" markerHeight="16" refX="8" refY="8"><circle cx="8" cy="8" r="5" /></marker></defs><path d="M'+points[min].join(',')+' '+px+','+py+'" style="marker-end: url(#markerArrow);" />';
+			var line = '<defs><marker id="markerCircle" markerWidth="'+(4*pointRadius)+'" markerHeight="'+(4*pointRadius)+'" refX="'+(2*pointRadius)+'" refY="'+(2*pointRadius)+'"><circle cx="'+(2*pointRadius)+'" cy="'+(2*pointRadius)+'" r="'+pointRadius+'" /></marker></defs><path d="M'+points[min].join(',')+' '+px+','+py+'" style="marker-end: url(#markerArrow);" />';
 		}
-		
-		points = points.map(pt => pt.join(','));
-		
-		return '<polygon points="'+points.join(' ')+'" />'+ (px ? line : '');
+		return '<polygon points="'+points.map(pt => pt.join(',')).join(' ')+'" />'+ (px ? line : '');
 	}
 	// selector examples:
 	// xywh=pixel:159,72,10,45 // w & h = 0 for point
@@ -37,7 +34,7 @@ function standardiseSVG(selector){
 	if (type=='xywh=pixel') type = (parameters[2]==0 & parameters[3]==0) ? 'point' : 'rect';
 	switch (type){
 	case "point":
-		SVG = '<circle cx="'+parameters[0]+'" cy="'+parameters[1]+'" r=".5" />';
+		SVG = '<circle cx="'+parameters[0]+'" cy="'+parameters[1]+'" r="'+pointRadius+'" />';
 		break;
 	case "rect":
 		SVG = '<rect x="'+parameters[0]+'" y="'+parameters[1]+'" width="'+parameters[2]+'" height="'+parameters[3]+'" />';
@@ -53,6 +50,6 @@ function standardiseSVG(selector){
 	}
 	return {
 		"type": "SvgSelector",
-		"value": "<svg:svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"#ff0\" fill-opacity=\"0.5\" stroke=\"black\" viewBox=\"0 0 6407 4947\">"+SVG+"</svg:svg>"
+		"value": "<svg:svg xmlns=\"http://www.w3.org/2000/svg\">"+SVG+"</svg:svg>" // Set fill, fill-opacity, and stroke via css, and viewBox dimensions based on target dimensions
 	}
 }
